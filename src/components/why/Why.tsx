@@ -3,7 +3,11 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Why = () => {
   return (
-    <div className="w-full flex md:flex-row flex-col md:items-center items-start justify-between md:px-[80px] px-[40px] py-[120px]">
+    <div
+      data-aos="fade-up"
+      data-aos-delay="300"
+      className="w-full flex md:flex-row flex-col md:items-center items-start justify-between md:px-[80px] px-[40px] py-[120px]"
+    >
       <span className="text-black font-bold text-[42px]">
         Why <br /> Choosing Us
       </span>

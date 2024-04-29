@@ -12,10 +12,14 @@ const Experiences = () => {
           src={experience}
           alt="image"
           className="rounded-2xl w-[90%] ml-5"
+          data-aos="fade-right"
         />
         <div className="absolute bg-[#F7F7F7] rounded-[20px] right-0 top-[45%] -translate-y-1/2 translate-x-[50px] w-[450px] h-[300px] z-[-1]"></div>
       </div>
-      <div className="flex flex-col mt-[-60px] md:px-0 px-8 lg:mr-[120px]">
+      <div
+        data-aos="fade-left"
+        className="flex flex-col mt-[-60px] md:px-0 px-8 lg:mr-[120px]"
+      >
         <span className="font-medium text-[#E58411] text-[18px] tracking-[0.2em]">
           EXPERIENCES
         </span>

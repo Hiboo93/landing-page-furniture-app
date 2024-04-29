@@ -14,7 +14,12 @@ const Reviews = () => {
       </div>
       <div className="flex md:flex-row flex-col w-full items-center justify-between mt-[60px] px-[130px] gap-10 ">
         {REVIEWS.map((review) => (
-          <div key={review.title} className="relative">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="300"
+            key={review.title}
+            className="relative"
+          >
             <img
               src={review.image}
               alt={review.title}
