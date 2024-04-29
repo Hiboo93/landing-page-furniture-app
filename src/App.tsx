@@ -1,4 +1,5 @@
 import Experiences from "./components/experiences/Experiences.tsx";
+import Footer from "./components/footer/Footer.tsx";
 import Header from "./components/header/Header.tsx";
 import Materials from "./components/materials/Materials.tsx";
 import Products from "./components/products/Products.tsx";
@@ -14,6 +15,7 @@ export default function App() {
       <Experiences />
       <Materials />
       <Reviews/>
+      <Footer />
     </div>
   )
 }
