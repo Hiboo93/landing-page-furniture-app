@@ -30,7 +30,7 @@ const Products = () => {
                     $ {chair.price}
                   </span>
                   <div className="rounded-full grid place-items-center bg-[#0D1B39] w-[48px] h-[48px] cursor-pointer">
-                    <span className="text-white mt-[-6px] text-[35px]">+</span>
+                    <span className="text-white mt-[-3px] text-[35px]">+</span>
                   </div>
                 </div>
               </div>
