@@ -15,10 +15,16 @@ const Products = () => {
         {CHAIRS.map((chair) => (
           <div
             key={chair.title}
-            className="bg-white w-full rounded-[20px] flex flex-col items-center justify-center"
+            className="bg-white w-full rounded-[20px] flex flex-col items-center justify-center group hover:shadow-xl"
+            data-aos="fade-up"
+            data-aos-delay="300"
           >
             <div className="grid place-items-center w-full bg-[#FAFAFA]">
-              <img src={chair.image} alt={chair.title} />
+              <img
+                src={chair.image}
+                alt={chair.title}
+                className="group-hover:border-4 border-cyan-400 "
+              />
             </div>
             <div className="w-full px-[20px] pb-[27px] pt-4 flex flex-col">
               <span className="text-[#8D8D8BD]">Chair</span>

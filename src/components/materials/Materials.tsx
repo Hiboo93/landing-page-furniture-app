@@ -12,14 +12,23 @@ const Materials = () => {
     >
       <div className="relative flex items-center md:gap-[42px] gap-0 ">
         <div className="absolute bg-[#F7F7F7] rounded-tl-[20px] right-0 top-3 w-[300px] h-[300px] z-[-1] md:block hidden"></div>
-        <img src={materials1} alt="image" className="w-[400px] h-[700px]" />
+        <img
+          src={materials1}
+          alt="image"
+          className="w-[400px] h-[700px]"
+          data-aos="fade-right"
+        />
         <img
           src={materials2}
           alt="image"
           className="w-[500px] h-[500px] rounded-lg"
+          data-aos="fade-right"
         />
       </div>
-      <div className="flex flex-col md:mt-[-60px] mt-5 md:px-0 px-8 lg:mr-[400px]">
+      <div
+        data-aos="fade-left"
+        className="flex flex-col md:mt-[-60px] mt-5 md:px-0 px-8 lg:mr-[400px]"
+      >
         <span className="font-medium text-[#E58411] text-[18px] tracking-[0.2em]">
           Materials
         </span>
